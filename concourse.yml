@@ -27,7 +27,7 @@ instance_groups:
   - name: private
     default: [dns, gateway]
   - name: public
-    static_ips: [172.18.161.252] # <--- Replace with a floating IP
+    static_ips: [172.18.161.251] # <--- Replace with a floating IP
   jobs:
   - name: atc
     release: concourse
